@@ -8,6 +8,7 @@ import Tasks from "./pages/Tasks";
 import TaskDetail from "./pages/TaskDetail";
 import Arbitration from "./pages/Arbitration";
 import Wallet from "./pages/Wallet";
+import Todo from "./pages/Todo";
 import NotFound from "./pages/NotFound";
 
 const queryClient = new QueryClient();
@@ -24,6 +25,7 @@ const App = () => (
           <Route path="/task/:id" element={<TaskDetail />} />
           <Route path="/arbitration" element={<Arbitration />} />
           <Route path="/wallet" element={<Wallet />} />
+          <Route path="/todo" element={<Todo />} />
           {/* ADD ALL CUSTOM ROUTES ABOVE THE CATCH-ALL "*" ROUTE */}
           <Route path="*" element={<NotFound />} />
         </Routes>

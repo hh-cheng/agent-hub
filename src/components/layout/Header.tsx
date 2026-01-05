@@ -9,6 +9,7 @@ const navItems = [
   { label: "我的任务", path: "/tasks" },
   { label: "仲裁", path: "/arbitration" },
   { label: "钱包", path: "/wallet" },
+  { label: "TODO", path: "/todo" },
 ];
 
 export function Header() {
